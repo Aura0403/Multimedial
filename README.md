@@ -124,6 +124,38 @@ Pagina.html
 </html>
 ```
 
+##Semana 3: Mini sitio (3 páginas conectadas)
+
+Ejercicio insertar imágenes en cada página.
+
+Index.html
+```
+<!DOCTYPE html>
+<html>
+<head>
+<title>Inicio</title>
+</head>
+
+<body>
+
+<h1>Mi sitio</h1>
+
+<img src="inicio.jpg" alt="Imagen de inicio" width="300">
+
+<br><br>
+
+<a href="obra.html">Obra</a><br>
+<a href="contacto.html">Contacto</a>
+
+</body>
+</html>
+```
+
+
+
+
+
+
 
 
 
