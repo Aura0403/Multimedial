@@ -75,3 +75,58 @@ MULTIMEDIAL
 <!-- Fin del documento HTML -->
 
 ```
+## Semana 2 ejercicio 2 (Enlaces)
+
+Ejemplo 1:
+
+```
+<a href="pagina2.html">Ir a la página 2</a>
+```
+
+Ejemplo 2:
+
+Index.html
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mi sitio</title>
+</head>
+
+<body>
+
+<h1>Página principal</h1>
+
+<a href="pagina2.html">Ir a la segunda página</a>
+
+</body>
+</html>
+
+```
+
+Pagina.html
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<title>Página 2</title>
+</head>
+
+<body>
+
+<h1>Esta es la segunda página</h1>
+
+<a href="index.html">Volver a la página principal</a>
+
+</body>
+</html>
+```
+
+
+
+
+
+
+
