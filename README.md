@@ -1,4 +1,6 @@
 ## Taller Multimedial  
+1.[Hola Mundo](https://github.com/Aura0403/interfaz2?tab=readme-ov-file#ejercicio-n-1-arduino-hola-mundo)<br>
+2.[Led Parpadeante](https://github.com/Aura0403/interfaz2?tab=readme-ov-file#ejercicio-n2-led-parpadeante)<br>
 
 Ejercicio 1 semana 1
 
