@@ -1,6 +1,6 @@
 ## Taller Multimedial  
 1.[Ejercicio 1 Semana 1](https://github.com/Aura0403/Multimedial/blob/main/README.md#:~:text=Ejercicio%201%20semana%201)<br>
-2.[Led Parpadeante](https://github.com/Aura0403/interfaz2?tab=readme-ov-file#ejercicio-n2-led-parpadeante)<br>
+2.[Semana 2](https://github.com/Aura0403/Multimedial#:~:text=Semana%202-,ejercicio,-2%20(Enlaces))<br>
 
 Ejercicio 1 semana 1
 
