@@ -1,7 +1,7 @@
 ## Taller Multimedial  
 1.[Ejercicio 1 Semana 1](https://github.com/Aura0403/Multimedial/blob/main/README.md#:~:text=Ejercicio%201%20semana%201)<br>
 2.[Semana 2](https://github.com/Aura0403/Multimedial#:~:text=Semana%202-,ejercicio,-2%20(Enlaces))<br>
-3.[Semana 3]()<br>
+3.[Semana 3](https://github.com/Aura0403/Multimedial/blob/main/README.md#:~:text=Semana%203%3A%20Mini%20sitio%20(3%20p%C3%A1ginas%20conectadas))<br>
 
 
 Ejercicio 1 semana 1
