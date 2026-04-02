@@ -124,7 +124,7 @@ Pagina.html
 </html>
 ```
 
-##Semana 3: Mini sitio (3 páginas conectadas)
+## Semana 3: Mini sitio (3 páginas conectadas)
 
 Ejercicio insertar imágenes en cada página.
 
