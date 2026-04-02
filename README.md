@@ -149,7 +149,183 @@ Index.html
 
 </body>
 </html>
+
 ```
+Codigo modificado:
+
+```
+!DOCTYPE html>
+<!-- Indica al navegador que este documento usa HTML5 -->
+
+<html>
+<!-- Inicio del documento HTML -->
+
+<head>
+<!-- Sección donde van metadatos, título y estilos -->
+
+<meta charset="UTF-8">
+<!-- Define la codificación de caracteres para que se vean bien tildes y símbolos -->
+
+<title>multimedial</title>
+<!-- Título de la página que aparece en la pestaña del navegador -->
+
+<style>
+/* Aquí comienza la sección de estilos CSS que define la apariencia visual */
+
+body{
+/* "body" se refiere a todo el contenido visible de la página */
+
+  background-color: pink;
+  /* Define que el fondo de toda la página sea blanco */
+
+  color: white;
+  /* Define que el color del texto sea negro */
+
+  margin: 0;
+  /* Elimina los márgenes que los navegadores agregan por defecto */
+
+  height: 100vh;
+  /* Hace que el alto del cuerpo sea igual al 100% de la altura de la pantalla */
+
+  display: flex;
+  /* Activa el sistema Flexbox para organizar y centrar elementos */
+
+  justify-content: center;
+  /* Centra el contenido horizontalmente */
+
+  align-items: center;
+  /* Centra el contenido verticalmente */
+
+  font-family: Arial, sans-serif;
+  /* Define la tipografía del texto */
+
+  font-size: 60px;
+  /* Define el tamaño grande del texto */
+
+}
+/* Fin de las reglas de estilo del body */
+
+</style>
+<!-- Fin de la sección de estilos -->
+
+</head>
+<!-- Fin de la sección head -->
+
+<body>
+<!-- Inicio del contenido visible de la página -->
+
+
+<!-- Texto que aparece en el centro de la pantalla -->
+ 
+<h1>Aura Encina</h1>
+<h3>Artista visual</h3>
+
+
+
+<img src="img/IMG_7136.jpeg" alt="Bodegon" width="300">
+
+</body>
+<!-- Fin del contenido visible -->
+
+</html>
+<!-- Fin del documento HTML -->
+
+```
+Obra.html
+```
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Obra</title>
+</head>
+
+<body>
+
+<h1>Mi obra</h1>
+
+<img src="obra.jpg" alt="Imagen de la obra" width="300">
+
+<p>Descripción de mi trabajo artístico</p>
+
+<a href="index.html">Inicio</a><br>
+<a href="contacto.html">Contacto</a>
+
+</body>
+</html>
+```
+Codigo modificado:
+```
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Obra</title>
+</head>
+
+<body>
+
+<h1>Mi obra</h1>
+
+<img src="img/IMG_2148_Original_Original.jpeg" alt="Cuando hay que encapsular el dolor" width="300">
+
+<p>Mi trabajo aborda temas como el refugio y la soledad</p>
+
+<a href="index.html">Inicio</a><br>
+<a href="contacto.html">Contacto</a>
+
+</body>
+</html>
+```
+contacto.html:
+```
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contacto</title>
+</head>
+
+<body>
+
+<h1>Contacto</h1>
+
+<img src="contacto.jpg" alt="Imagen de contacto" width="300">
+
+<p>email@email.com</p>
+
+<a href="index.html">Inicio</a><br>
+<a href="obra.html">Obra</a>
+
+</body>
+</html>
+```
+Codigo modificado:
+```
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contacto</title>
+</head>
+
+<body>
+
+<h1>Contacto</h1>
+
+<img src="img/IMG_5003.jpeg" alt="Espiritu del presente" width="300">
+
+<p>encinaaura@gmail.com</p>
+
+<a href="index.html">Inicio</a><br>
+<a href="obra.html">Obra</a>
+
+</body>
+</html>
+```
+
+
+
+
+
 
 
 
