@@ -1,68 +1,115 @@
 <!DOCTYPE html>
-<!-- Indica al navegador que este documento usa HTML5 -->
-
-<html>
-<!-- Inicio del documento HTML -->
-
+<html lang="es">
 <head>
-<!-- Sección donde van metadatos, título y estilos -->
+    <meta charset="UTF-8">
+    <title>Aura Encina - Artista Visual</title>
+    <style>
+        /* Estilos generales del cuerpo */
+        body {
+            background-color: rgb(5, 0, 24);
+            color: white;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100vh; /* Ocupa toda la altura de la pantalla */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-<meta charset="UTF-8">
-<!-- Define la codificación de caracteres para que se vean bien tildes y símbolos -->
+        /* Contenedor principal que divide la pantalla en dos */
+        .container {
+            display: flex;
+            flex-direction: row; /* Alinea los elementos en fila (uno al lado del otro) */
+            width: 90%; /* Margen lateral para que no toque los bordes */
+            max-width: 1200px;
+            align-items: center; /* Centra verticalmente ambos bloques */
+            justify-content: space-between; /* Da espacio entre el texto y la imagen */
+            gap: 50px;
+        }
 
-<title>multimedial</title>
-<!-- Título de la página que aparece en la pestaña del navegador -->
+        /* Bloque de la izquierda (Texto) */
+        .texto-portada {
+            flex: 1; /* Toma la mitad del espacio */
+            text-align: left; /* Alinea el texto a la izquierda */
+        }
 
-<style>
-/* Aquí comienza la sección de estilos CSS que define la apariencia visual */
+        h1 {
+            font-size: 70px;
+            margin: 0;
+            line-height: 1.1;
+        }
 
-body{
-/* "body" se refiere a todo el contenido visible de la página */
+        h3 {
+            font-size: 24px;
+            font-weight: lighter;
+            color: #aaa;
+            margin: 10px 0 30px 0;
+        }
 
-  background-color: pink;
-  /* Define que el fondo de toda la página sea blanco */
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin-right: 25px;
+            font-size: 18px;
+            border-bottom: 1px solid transparent;
+            transition: 0.3s;
+        }
 
-  color: white;
-  /* Define que el color del texto sea negro */
+        .nav-links a:hover {
+            border-bottom: 1px solid white;
+            color: #00aaff;
+        }
 
-  margin: 0;
-  /* Elimina los márgenes que los navegadores agregan por defecto */
+        /* Bloque de la derecha (Imagen) */
+        .imagen-portada {
+            flex: 1; /* Toma la otra mitad del espacio */
+            display: flex;
+            justify-content: center; /* Centra la imagen dentro de su bloque */
+        }
 
-  height: 100vh;
-  /* Hace que el alto del cuerpo sea igual al 100% de la altura de la pantalla */
+        .imagen-portada img {
+            width: 100%; /* La imagen se adapta al tamaño del contenedor */
+            max-width: 500px; /* Tamaño máximo para que no se pixele */
+            height: auto;
+            border-radius: 4px; /* Opcional: bordes suavizados */
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5); /* Sombra para darle profundidad */
+        }
 
-  display: flex;
-  /* Activa el sistema Flexbox para organizar y centrar elementos */
-
-  justify-content: center;
-  /* Centra el contenido horizontalmente */
-
-  align-items: center;
-  /* Centra el contenido verticalmente */
-
-  font-family: Arial, sans-serif;
-  /* Define la tipografía del texto */
-
-  font-size: 60px;
-  /* Define el tamaño grande del texto */
-
-}
-/* Fin de las reglas de estilo del body */
-
-</style>
-<!-- Fin de la sección de estilos -->
-
+        /* Ajuste para celulares (cuando la pantalla es pequeña) */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column; /* Se pone uno arriba del otro en móvil */
+                text-align: center;
+            }
+            .texto-portada {
+                text-align: center;
+            }
+            h1 { font-size: 45px; }
+        }
+    </style>
 </head>
-<!-- Fin de la sección head -->
-
 <body>
-<!-- Inicio del contenido visible de la página -->
 
-TALLER DE MULTIMEDIAL
-<!-- Texto que aparece en el centro de la pantalla -->
+    <div class="container">
+        
+        <div class="texto-portada">
+            <header>
+                <h1>Aura Encina</h1>
+                <h3>Artista visual</h3>
+            </header>
+
+            <nav class="nav-links">
+                <a href="obra.html">Obras</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
+
+        <div class="imagen-portada">
+            <img src="img/IMG_2147_Original.jpeg" alt="Bodegon">
+        </div>
+
+    </div>
 
 </body>
-<!-- Fin del contenido visible -->
-
 </html>
-<!-- Fin del documento HTML -->
