@@ -4,111 +4,67 @@
     <meta charset="UTF-8">
     <title>Aura Encina - Artista Visual</title>
     <style>
-        /* Estilos generales del cuerpo */
         body {
-            background-color: rgb(5, 0, 24);
-            color: white;
+            background-color: rgb(242, 236, 242);
+            color: rgb(0, 0, 0);
             margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            height: 100vh; /* Ocupa toda la altura de la pantalla */
+            min-height: 100vh;
             display: flex;
+            flex-direction: column; /* Alinea los bloques hacia abajo */
             justify-content: center;
             align-items: center;
+            font-family: Arial, sans-serif;
+            text-align: center; /* Centra el texto por dentro */
+            padding: 20px;
         }
 
-        /* Contenedor principal que divide la pantalla en dos */
         .container {
             display: flex;
-            flex-direction: row; /* Alinea los elementos en fila (uno al lado del otro) */
-            width: 90%; /* Margen lateral para que no toque los bordes */
-            max-width: 1200px;
-            align-items: center; /* Centra verticalmente ambos bloques */
-            justify-content: space-between; /* Da espacio entre el texto y la imagen */
-            gap: 50px;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px; /* Espacio entre elementos */
         }
 
-        /* Bloque de la izquierda (Texto) */
-        .texto-portada {
-            flex: 1; /* Toma la mitad del espacio */
-            text-align: left; /* Alinea el texto a la izquierda */
-        }
+        h1 { margin: 0; font-size: 60px; }
+        h3 { margin: 0; font-weight: lighter; color: #000000; }
 
-        h1 {
-            font-size: 70px;
-            margin: 0;
-            line-height: 1.1;
-        }
-
-        h3 {
-            font-size: 24px;
-            font-weight: lighter;
-            color: #aaa;
-            margin: 10px 0 30px 0;
+        .nav-links {
+            margin-top: 15px;
         }
 
         .nav-links a {
-            color: white;
+            color: #00aaff;
             text-decoration: none;
-            margin-right: 25px;
-            font-size: 18px;
-            border-bottom: 1px solid transparent;
-            transition: 0.3s;
+            margin: 0 15px;
+            font-size: 20px;
         }
 
         .nav-links a:hover {
-            border-bottom: 1px solid white;
-            color: #00aaff;
+            text-decoration: underline;
         }
 
-        /* Bloque de la derecha (Imagen) */
-        .imagen-portada {
-            flex: 1; /* Toma la otra mitad del espacio */
-            display: flex;
-            justify-content: center; /* Centra la imagen dentro de su bloque */
-        }
-
-        .imagen-portada img {
-            width: 100%; /* La imagen se adapta al tamaño del contenedor */
-            max-width: 500px; /* Tamaño máximo para que no se pixele */
+        img {
+            margin-top: 30px;
+            border-radius: 8px; /* Un toque estético */
+            max-width: 100%;
             height: auto;
-            border-radius: 4px; /* Opcional: bordes suavizados */
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5); /* Sombra para darle profundidad */
-        }
-
-        /* Ajuste para celulares (cuando la pantalla es pequeña) */
-        @media (max-width: 768px) {
-            .container {
-                flex-direction: column; /* Se pone uno arriba del otro en móvil */
-                text-align: center;
-            }
-            .texto-portada {
-                text-align: center;
-            }
-            h1 { font-size: 45px; }
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        
-        <div class="texto-portada">
-            <header>
-                <h1>Aura Encina</h1>
-                <h3>Artista visual</h3>
-            </header>
+        <header>
+            <h1>Aura Encina</h1>
+            <h3>Artista visual</h3>
+        </header>
 
-            <nav class="nav-links">
-                <a href="obra.html">Obras</a>
-                <a href="contacto.html">Contacto</a>
-            </nav>
-        </div>
+        <nav class="nav-links">
+            <a href="obra.html">Obras</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
 
-        <div class="imagen-portada">
-            <img src="img/IMG_2147_Original.jpeg" alt="Bodegon">
-        </div>
-
+        <img src="img/IMG_2147_Original.jpeg" alt="Bodegon" width="500">
     </div>
 
 </body>
