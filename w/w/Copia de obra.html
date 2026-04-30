@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Estructura con Divisiones</title>
+
+    <style>
+        /* --- AQUÍ COMIENZA EL CSS NUEVO --- */
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #030322; /* El fondo azul oscuro de tu página */
+            margin: 0;
+            padding: 20px 0; /* Un poco de espacio arriba y abajo */
+        }
+
+        /* El contenedor ahora es más estrecho para que los bloques se vean pequeños */
+        .contenedor {
+            width: 90%;
+            max-width: 850px; /* <--- ESTA LÍNEA controla qué tan pequeño es el bloque */
+            margin: auto;
+            display: flex; /* Activa flexbox: organiza los hijos en fila */
+            justify-content: space-around; /* Distribuye los elementos con espacio alrededor */
+        }
+
+        .bloque {
+            background-color: rgb(225, 239, 219); /* El color verde claro */
+            margin-bottom: 30px; /* Espacio entre un bloque y otro */
+            padding: 15px; /* Espacio interno del bloque */
+            border-radius: 10px;
+            color: #18174c; /* Color de letra oscuro para que se lea bien */
+        }
+
+        .bloque img {
+            width: 100%; /* La imagen ocupa todo el ancho del bloque */
+            height: auto; /* Mantiene la proporción original */
+            display: block;
+            border-radius: 5px;
+        }
+
+        .bloque h2 {
+            font-size: 1.2rem; /* Título un poco más pequeño */
+            margin: 15px 0 5px 0;
+        }
+
+        .bloque p {
+            font-size: 0.9rem; /* Texto de descripción más sutil */
+            line-height: 1.4;
+            margin: 0;
+        }
+
+        /* Estilo para los enlaces del último bloque */
+        .bloque a {
+            color: #18174c;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        /* --- AQUÍ TERMINA EL CSS --- */
+    </style>
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <div class="bloque">
+            <img src="img/IMG_2148_Original_Original.jpeg" alt="Obra 1"> 
+            <h2>Cuando hay que encapsular el dolor</h2>
+            <p>Parte del díptico, óleo sobre tela, 180x140cm, 2025.</p>
+        </div>
+
+        <div class="bloque">
+            <img src="img/IMG_2147_Original.jpeg" alt="Obra 2">
+            <h2>Cuando hay que encapsular el dolor</h2>
+            <p>Parte del díptico, óleo sobre tela, 180x140cm, 2025.</p>
+        </div>
+
+        <div class="bloque">
+            <img src="img/casa3.jpeg" alt="Obra 3">
+            <h2>Luchito y pato Abelardo</h2>
+            <p>Óleo sobre tela, 2026.</p>
+        </div>
+
+        <div class="bloque">
+            <a href="index.html"> Inicio</a><br>
+            <a href="contacto.html">Contacto</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
