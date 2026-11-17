@@ -1,3 +1,5 @@
+![GIF](img/giphy%20(2).gif)
+
 ## Taller Multimedial  
 1.[Ejercicio 1 Semana 1](https://github.com/Aura0403/Multimedial/blob/main/README.md#:~:text=Ejercicio%201%20semana%201)<br>
 2.[Semana 2](https://github.com/Aura0403/Multimedial#:~:text=Semana%202-,ejercicio,-2%20(Enlaces))<br>
